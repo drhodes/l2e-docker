@@ -1,6 +1,6 @@
 FROM python:2.7-jessie
 
-RUN apt-get update
+RUN apt-get update \
   && apt-get install --no-install-recommends -y \
     libxml2-utils \
     python-lxml \
