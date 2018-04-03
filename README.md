@@ -18,7 +18,7 @@ Usage
    navigate to the directory containing your course files
 2. Run latex2edx using the following command:
 
-       docker run --rm -v $(pwd):$(pwd) latex2edx [...options]
+       docker run --rm -v $(pwd):$(pwd) -w $(pwd) latex2edx [...options]
 
 _Note: latex2edx will only have access to directories within the directory in which you
 run it; if you need to read or save files in a parent/sibling directory, first navigate
