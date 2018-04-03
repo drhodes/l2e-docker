@@ -10,4 +10,3 @@ RUN apt-get update \
 RUN pip install --no-cache-dir -e git+https://github.com/mitocw/latex2edx.git#egg=latex2edx
 
 ENTRYPOINT ["/usr/bin/env", "latex2edx"]
-CMD ["--help"]
