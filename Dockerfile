@@ -13,7 +13,7 @@ RUN pip install --no-cache-dir \
 	git+https://github.com/plastex/plastex.git@d85adb4800407bdb8ff17a5757faef8de0f1fde3 \
 	unidecode \
 	-e git+https://github.com/mitocw/latex2dnd.git#egg=latex2dnd \
-	-e git+https://github.com/drhodes/latex2edx.git@table4#egg=latex2edx
+	-e git+https://github.com/drhodes/latex2edx.git@table5#egg=latex2edx
 
 COPY entry.sh /usr/local/bin/entry.sh
 ENTRYPOINT ["/usr/local/bin/entry.sh"]
